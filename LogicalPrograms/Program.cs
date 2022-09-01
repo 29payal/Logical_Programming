@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Choose the option\n 1. Fibonnacci Series\t 2.Perfect NUmber\t 3.Prime Number\t 4.Reverse nUmber\t 5.Binary Conversion\t 6.Swap nibbles ");
+            Console.WriteLine("Choose the option\n 1. Fibonnacci Series\t 2.Perfect NUmber\t 3.Prime Number\t 4.Reverse nUmber\t 5.Binary Conversion\t 6.Swap nibbles\t 7. Square Root ");
             int option = Convert.ToInt32(Console.ReadLine());
             switch(option)
             {
@@ -25,6 +25,9 @@
                     break;
                 case 6:
                     SwapNibbles.swapNibbles();
+                    break;
+                case 7:
+                    SquareRoot.squareRoot();
                     break;
                     default:
                     Console.WriteLine("Wrong Choice");
